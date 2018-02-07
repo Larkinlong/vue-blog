@@ -1,11 +1,23 @@
 <template>
   <div class="header-body">
-    <div class="header-logo"></div>
-    <div class="menu">
-      <div class="categories"></div>
-      <div class="info"></div>
-      <div class="github"></div>
+    <div class="logo">
+      <img src="../../assets/logo.jpg" alt="">
+      <div class="name">Larkin's Blog</div>
     </div>
+    <ul class="menu">
+      <li class="item">
+        <img src="../../assets/icon/ViewGallery.png" alt="">
+        分类
+      </li>
+      <li class="item">
+        <img src="../../assets/icon/github.png" alt="">
+        github
+      </li>
+      <li class="item">
+        <img src="../../assets/icon/header.png" alt="">
+        作者
+      </li>
+    </ul>
   </div>
 </template>
 
