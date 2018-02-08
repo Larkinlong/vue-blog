@@ -51,6 +51,9 @@
       background-color: #fff;
       border-radius: 5px;
       position: relative;
+      &:hover{
+        animation: listAnimat 1s linear forwards;
+      }
       .title {
         height: 80px;
         line-height: 40px;
