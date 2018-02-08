@@ -1,10 +1,12 @@
 // import { mapState } from 'vuex'
-// import { baseUrl } from '../../../config/index';
+import  resource from '../../common/resource';
 import headerComp from '../../components/header/index.vue'
 export default {
   name: 'home',
   data() {
     return {
+      navLists:[],
+      lists:[]
     }
   },
   components: {
@@ -23,10 +25,28 @@ export default {
   // },
   mounted() {
     this.newFunc()
+    this.lists = resource.listDatas
   },
   methods: {
     newFunc() {
-      console.log('22222')
+      this.navLists = [
+        {
+          url:'../../static/icon/html5.png',
+          name:'Html5'
+        },
+        {
+          url:'../../static/icon/social-css3.png',
+          name:'Css3'
+        },
+        {
+          url:'../../static/icon/social-javascript.png',
+          name:'Javascript'
+        },
+        {
+          url:'../../static/icon/nodejs.png',
+          name:'Nodejs'
+        },
+      ]
     }
   }
 }
