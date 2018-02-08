@@ -8,11 +8,11 @@ export default {
     }
   },
   props: {
-    msg: {
-      type: String,
-      required: true,
-      default: ""
-    }
+    // msg: {
+    //   type: String,
+    //   required: true,
+    //   default: ""
+    // }
   },
   // mixins: [share, qrcode],
   // computed: {
