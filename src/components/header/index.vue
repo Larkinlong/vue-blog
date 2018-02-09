@@ -6,15 +6,15 @@
     </div>
     <ul class="menu">
       <li class="item">
-        <img src="../../assets/icon/ViewGallery.png" alt="">
+        <img src="../../../static/icon/ViewGallery.png" alt="">
         分类
       </li>
       <li class="item">
-        <img src="../../assets/icon/github.png" alt="">
+        <img src="../../../static/icon/github.png" alt="">
         github
       </li>
       <li class="item">
-        <img src="../../assets/icon/header.png" alt="">
+        <img src="../../../static/icon/header.png" alt="">
         作者
       </li>
     </ul>
